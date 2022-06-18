@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+.container {
+    margin: auto;
+    max-width: 375px;
+}
+.card {
+    background-color: hsl(216, 50%, 16%);
+    padding: 25px;
+    border-radius: 5px;
+    text-align: center;
+}
+.card ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.card #product {
+    width: 100%;
+    border-radius: 5px;
+}
+hr {
+    border-color: hsl(215, 32%, 27%);
+    margin: 20px 0 20px 0;
+}
+h2 {
+    color: white;
+    text-align: left;
+    padding: 20px 0 5px 0;
+}
+#description {
+    color: hsl(215, 51%, 70%);
+    text-align: left;
+    padding: 10px 0 5px 0;
+}
+#eth {
+    padding: 0 6px 0 0;
+}
+#clock {
+    padding: 0 6px 0 0;
+}
+#value {
+    color: hsl(178, 100%, 50%);
+}
+#count {
+    color: hsl(215, 51%, 70%);
+}
+li {
+    list-style: none;
+}
+.author {
+    color: hsl(215, 51%, 70%);
+    display: flex;
+    align-items: center;
+}
+#avatar {
+    width: 12%;
+    border-radius: 100%;
+    border: 1px solid white;
+}
+#creation {
+    padding-left: 5%;
+}
+#jules {
+    color: white;
+    padding-left: 4px;
+}
